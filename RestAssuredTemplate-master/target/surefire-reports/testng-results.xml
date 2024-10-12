@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-12T07:45:31Z" name="Surefire suite" finished-at="2024-10-12T07:45:49Z" duration-ms="18367">
+    <groups>
+    </groups>
+    <test started-at="2024-10-12T07:45:31Z" name="Surefire test" finished-at="2024-10-12T07:45:49Z" duration-ms="18367">
+      <class name="userRequestTest">
+        <test-method is-config="true" signature="SetUpSuite()[pri:0, instance:userRequestTest@503d687a]" started-at="2024-10-12T14:45:31Z" name="SetUpSuite" description="Configure URI" finished-at="2024-10-12T14:45:31Z" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpSuite -->
+        <test-method signature="createWithArrayTest()[pri:1, instance:userRequestTest@503d687a]" started-at="2024-10-12T14:45:31Z" name="createWithArrayTest" finished-at="2024-10-12T14:45:35Z" duration-ms="3567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWithArrayTest -->
+        <test-method signature="createWithListTest()[pri:2, instance:userRequestTest@503d687a]" started-at="2024-10-12T14:45:35Z" name="createWithListTest" finished-at="2024-10-12T14:45:37Z" duration-ms="1921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWithListTest -->
+        <test-method signature="findUserByUsernameTest()[pri:3, instance:userRequestTest@503d687a]" started-at="2024-10-12T14:45:37Z" name="findUserByUsernameTest" finished-at="2024-10-12T14:45:38Z" duration-ms="1803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findUserByUsernameTest -->
+        <test-method signature="loginTest()[pri:4, instance:userRequestTest@503d687a]" started-at="2024-10-12T14:45:38Z" name="loginTest" finished-at="2024-10-12T14:45:42Z" duration-ms="3245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="updateUserTest()[pri:5, instance:userRequestTest@503d687a]" started-at="2024-10-12T14:45:42Z" name="updateUserTest" finished-at="2024-10-12T14:45:44Z" duration-ms="1898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+        <test-method signature="deleteUserTest()[pri:6, instance:userRequestTest@503d687a]" started-at="2024-10-12T14:45:44Z" name="deleteUserTest" finished-at="2024-10-12T14:45:46Z" duration-ms="1885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+        <test-method signature="createUserTest()[pri:7, instance:userRequestTest@503d687a]" started-at="2024-10-12T14:45:46Z" name="createUserTest" finished-at="2024-10-12T14:45:47Z" duration-ms="1939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method signature="logoutTest()[pri:8, instance:userRequestTest@503d687a]" started-at="2024-10-12T14:45:47Z" name="logoutTest" finished-at="2024-10-12T14:45:49Z" duration-ms="1958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="TearDownSuite()[pri:0, instance:userRequestTest@503d687a]" started-at="2024-10-12T14:45:49Z" name="TearDownSuite" finished-at="2024-10-12T14:45:49Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownSuite -->
+      </class> <!-- userRequestTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
