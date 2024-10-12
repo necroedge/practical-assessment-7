@@ -10,7 +10,7 @@ public class userRequestTest extends BaseTestUser {
 
     private String session; //Variable to store Session ID
 
-    @Test(priority = 1)
+    @Test(priority = 1) // create user with Array
     public void createWithArrayTest(){
         String requestBody = "[\n" +
                 "  {\n" +
@@ -44,7 +44,7 @@ public class userRequestTest extends BaseTestUser {
                 .statusCode(200);
     }
 
-    @Test(priority = 2)
+    @Test(priority = 2) // create user with List
     public void createWithListTest(){
         String requestBody = "[\n" +
                 "  {\n" +
@@ -68,7 +68,7 @@ public class userRequestTest extends BaseTestUser {
                 .statusCode(200);
     }
 
-    @Test(priority = 3)
+    @Test(priority = 3) // find user by username
     public void findUserByUsernameTest(){
         given().contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
@@ -79,7 +79,7 @@ public class userRequestTest extends BaseTestUser {
                 .extract().response();
     }
 
-    @Test(priority = 4)
+    @Test(priority = 4) // login user
     public void loginTest(){
         Response response = given().contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
@@ -96,7 +96,7 @@ public class userRequestTest extends BaseTestUser {
         System.out.println("Session ID: " + session);
     }
 
-    @Test(priority = 5)
+    @Test(priority = 5) // update user
     public void updateUserTest() {
         String requestBody = "{\n" +
                 "  \"id\": 1210,\n" +
@@ -121,7 +121,7 @@ public class userRequestTest extends BaseTestUser {
                 .extract().response();
     }
 
-    @Test(priority = 6)
+    @Test(priority = 6) // delete user
     public void deleteUserTest(){
         given()
                 .header("session",session)
@@ -132,7 +132,7 @@ public class userRequestTest extends BaseTestUser {
                 .extract().response();
     }
 
-    @Test(priority = 7)
+    @Test(priority = 7) // create user after login
     public void createUserTest(){
         String requestBody = "{\n" +
                 "  \"id\": 1400,\n" +
@@ -156,7 +156,7 @@ public class userRequestTest extends BaseTestUser {
                 .statusCode(200);
     }
 
-    @Test(priority = 8)
+    @Test(priority = 8) // logout
     public void logoutTest(){
         given().contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
